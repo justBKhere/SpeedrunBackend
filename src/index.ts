@@ -1,12 +1,11 @@
-import web3 = require('@solana/web3.js')
-import Dotenv from 'dotenv'
-Dotenv.config()
+import web3 from '@solana/web3.js';
+import app from './app';
+import dotenv from 'dotenv';
+dotenv.config();
 
-async function main() {
-    const newKeypair = web3.Keypair.generate()
-    console.log(newKeypair.secretKey.toString())
-}
-
-main().then(() => {
-    console.log('not done')
-})    
+const PORT = process.env.PORT || 3000;
+console.log(`Server started on port ${PORT}`);
+// Start the server
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
+});
