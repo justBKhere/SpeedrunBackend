@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import morgan from 'morgan';
 import userApiRouter from './routes/userRoutes';
+import walletApiRouter from './routes/walletRoutes';
 import authMiddleware from './middleware/authMiddleware';
 
 const app: Application = express();
@@ -17,7 +18,7 @@ app.use(morgan('combined'));
 
 // API routes
 app.use('/api/v1/user/', userApiRouter);
-
+app.use('/api/v1/wallet/', walletApiRouter);
 // Error handling middleware
 app.use((err: any, req: Request, res: Response, next: NextFunction) => {
     console.error(err.stack);
