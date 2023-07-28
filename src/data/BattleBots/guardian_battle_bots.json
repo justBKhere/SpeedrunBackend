@@ -1,0 +1,228 @@
+{
+  "battleBots": [
+    {
+      "name": "Sentinel Guardian",
+      "type": "Guardian",
+      "upgradeLevel": "Basic",
+      "description": "The Sentinel Guardian is a basic guardian bot with enhanced shielding capabilities.",
+      "image": "https://example.com/sentinel_guardian_image.png",
+      "animation_url": "https://example.com/sentinel_guardian_animation.gif",
+      "external_url": "https://example.com/sentinel_guardian_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "2000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "400"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "100"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "100"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 100
+        }
+      },
+      "assetIdOnChain": "sentinel_guardian_onchain_asset",
+      "assetIdOffChain": "sentinel_guardian_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Sentinel Guardian X",
+      "type": "Guardian",
+      "upgradeLevel": "Intermediate",
+      "description": "The Sentinel Guardian X is an upgraded version with advanced shielding and guardian defense protocols.",
+      "image": "https://example.com/sentinel_guardian_x_image.png",
+      "animation_url": "https://example.com/sentinel_guardian_x_animation.gif",
+      "external_url": "https://example.com/sentinel_guardian_x_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "2300"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "450"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "120"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "110"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Improved shield strength and regeneration"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Enhanced Shielding",
+          "Guardian Defense Protocols"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "rareCrystals": 150,
+          "nanomaterials": 50
+        }
+      },
+      "assetIdOnChain": "sentinel_guardian_x_onchain_asset",
+      "assetIdOffChain": "sentinel_guardian_x_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Sentinel Guardian Z",
+      "type": "Guardian",
+      "upgradeLevel": "Advanced",
+      "description": "The Sentinel Guardian Z is the ultimate guardian bot, featuring adaptive energy redistribution and reinforced armor plating.",
+      "image": "https://example.com/sentinel_guardian_z_image.png",
+      "animation_url": "https://example.com/sentinel_guardian_z_animation.gif",
+      "external_url": "https://example.com/sentinel_guardian_z_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "2600"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "500"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "140"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "120"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "More efficient shield energy usage and increased armor protection"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Adaptive Energy Redistribution",
+          "Reinforced Armor Plating"
+        ],
+        "resourcesRequired": {
+          "metal": 350,
+          "rareCrystals": 200,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "sentinel_guardian_z_onchain_asset",
+      "assetIdOffChain": "sentinel_guardian_z_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Sentinel Guardian Q",
+      "type": "Guardian",
+      "upgradeLevel": "Expert",
+      "description": "The Sentinel Guardian Q is an expert-level bot equipped with a quantum shield matrix and a null-point singularity generator.",
+      "image": "https://example.com/sentinel_guardian_q_image.png",
+      "animation_url": "https://example.com/sentinel_guardian_q_animation.gif",
+      "external_url": "https://example.com/sentinel_guardian_q_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "3000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "550"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "160"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "130"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "14"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Temporarily create a null-point singularity, nullifying incoming enemy projectiles"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Quantum Shield Matrix",
+          "Null-Point Singularity Generator"
+        ],
+        "resourcesRequired": {
+          "metal": 450,
+          "rareCrystals": 250,
+          "exoticEnergyFragments": 150
+        }
+      },
+      "assetIdOnChain": "sentinel_guardian_q_onchain_asset",
+      "assetIdOffChain": "sentinel_guardian_q_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

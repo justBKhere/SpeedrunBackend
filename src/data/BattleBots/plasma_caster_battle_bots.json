@@ -1,0 +1,228 @@
+{
+  "battleBots": [
+    {
+      "name": "Plasma Blazer",
+      "type": "Plasma Caster",
+      "upgradeLevel": "Basic",
+      "description": "The Plasma Blazer is a basic plasma caster bot capable of firing powerful plasma beams at enemies.",
+      "image": "https://example.com/plasma_blazer_image.png",
+      "animation_url": "https://example.com/plasma_blazer_animation.gif",
+      "external_url": "https://example.com/plasma_blazer_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "800"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "100"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "250"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "rareCrystals": 100
+        }
+      },
+      "assetIdOnChain": "plasma_blazer_onchain_asset",
+      "assetIdOffChain": "plasma_blazer_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Plasma Blazer X",
+      "type": "Plasma Caster",
+      "upgradeLevel": "Intermediate",
+      "description": "The Plasma Blazer X is an upgraded version with plasma focus optics and ionized plasma emission for more destructive power.",
+      "image": "https://example.com/plasma_blazer_x_image.png",
+      "animation_url": "https://example.com/plasma_blazer_x_animation.gif",
+      "external_url": "https://example.com/plasma_blazer_x_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "900"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "120"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "300"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "45"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Increased damage and longer plasma range"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Plasma Focus Optics",
+          "Ionized Plasma Emission"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 150,
+          "exoticEnergyFragments": 50
+        }
+      },
+      "assetIdOnChain": "plasma_blazer_x_onchain_asset",
+      "assetIdOffChain": "plasma_blazer_x_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Plasma Blazer Z",
+      "type": "Plasma Caster",
+      "upgradeLevel": "Advanced",
+      "description": "The Plasma Blazer Z is the ultimate plasma caster bot, featuring a plasma compression chamber and plasma beam amplification.",
+      "image": "https://example.com/plasma_blazer_z_image.png",
+      "animation_url": "https://example.com/plasma_blazer_z_animation.gif",
+      "external_url": "https://example.com/plasma_blazer_z_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "140"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "350"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "50"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Higher damage output and wider plasma beam"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Plasma Compression Chamber",
+          "Plasma Beam Amplification"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 200,
+          "exoticEnergyFragments": 100
+        }
+      },
+      "assetIdOnChain": "plasma_blazer_z_onchain_asset",
+      "assetIdOffChain": "plasma_blazer_z_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Plasma Blazer Q",
+      "type": "Plasma Caster",
+      "upgradeLevel": "Expert",
+      "description": "The Plasma Blazer Q is an expert-level bot equipped with a quantum plasma core and a plasma singularity projector.",
+      "image": "https://example.com/plasma_blazer_q_image.png",
+      "animation_url": "https://example.com/plasma_blazer_q_animation.gif",
+      "external_url": "https://example.com/plasma_blazer_q_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "160"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "400"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "55"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Unleashes a plasma singularity, damaging all enemies in its area of effect"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Quantum Plasma Core",
+          "Plasma Singularity Projector"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "rareCrystals": 250,
+          "exoticEnergyFragments": 150
+        }
+      },
+      "assetIdOnChain": "plasma_blazer_q_onchain_asset",
+      "assetIdOffChain": "plasma_blazer_q_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

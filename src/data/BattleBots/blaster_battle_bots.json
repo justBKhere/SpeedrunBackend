@@ -1,0 +1,171 @@
+{
+  "battleBots": [
+    {
+      "name": "Inferno Fury MK-I",
+      "type": "Blaster",
+      "upgradeLevel": "Basic",
+      "description": "The Inferno Fury MK-I is equipped with powerful blasters, unleashing an inferno of destruction upon enemies.",
+      "image": "https://example.com/infernofury_mk1_image.png",
+      "animation_url": "https://example.com/infernofury_mk1_animation.gif",
+      "external_url": "https://example.com/infernofury_mk1_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "200"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "150"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "50"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 50
+        }
+      },
+      "assetIdOnChain": "infernofury_mk1_onchain_asset",
+      "assetIdOffChain": "infernofury_mk1_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Inferno Fury MK-II",
+      "type": "Blaster",
+      "upgradeLevel": "Intermediate",
+      "description": "The Inferno Fury MK-II is an upgraded version with increased attack power and extended range, turning the battlefield into a blazing inferno.",
+      "image": "https://example.com/infernofury_mk2_image.png",
+      "animation_url": "https://example.com/infernofury_mk2_animation.gif",
+      "external_url": "https://example.com/infernofury_mk2_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "250"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "200"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "60"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Increased attack power and range"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Weaponry",
+          "Energy Amplification"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 75,
+          "exoticEnergyFragments": 25
+        }
+      },
+      "assetIdOnChain": "infernofury_mk2_onchain_asset",
+      "assetIdOffChain": "infernofury_mk2_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Inferno Fury MK-III",
+      "type": "Blaster",
+      "upgradeLevel": "Advanced",
+      "description": "The Inferno Fury MK-III is the pinnacle of blaster technology, boasting unparalleled accuracy and devastating firepower.",
+      "image": "https://example.com/infernofury_mk3_image.png",
+      "animation_url": "https://example.com/infernofury_mk3_animation.gif",
+      "external_url": "https://example.com/infernofury_mk3_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1500"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "300"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "250"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "70"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Unparalleled accuracy and devastating firepower"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Targeting Systems",
+          "Projectile Speed Optimization"
+        ],
+        "resourcesRequired": {
+          "metal": 300,
+          "rareCrystals": 100,
+          "exoticEnergyFragments": 50
+        }
+      },
+      "assetIdOnChain": "infernofury_mk3_onchain_asset",
+      "assetIdOffChain": "infernofury_mk3_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

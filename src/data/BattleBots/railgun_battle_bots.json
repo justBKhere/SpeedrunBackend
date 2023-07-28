@@ -1,0 +1,228 @@
+{
+  "battleBots": [
+    {
+      "name": "RailMaster 500",
+      "type": "Railgun",
+      "upgradeLevel": "Basic",
+      "description": "The RailMaster 500 is a basic railgun bot with precise targeting and magnetic acceleration.",
+      "image": "https://example.com/railmaster_500_image.png",
+      "animation_url": "https://example.com/railmaster_500_animation.gif",
+      "external_url": "https://example.com/railmaster_500_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "150"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "250"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "30"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 50
+        }
+      },
+      "assetIdOnChain": "railmaster_500_onchain_asset",
+      "assetIdOffChain": "railmaster_500_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "RailMaster 700",
+      "type": "Railgun",
+      "upgradeLevel": "Intermediate",
+      "description": "The RailMaster 700 is an upgraded version with precision rail system and magnetic acceleration for higher accuracy and projectile speed.",
+      "image": "https://example.com/railmaster_700_image.png",
+      "animation_url": "https://example.com/railmaster_700_animation.gif",
+      "external_url": "https://example.com/railmaster_700_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "180"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "300"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "35"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Increased railgun accuracy and projectile speed"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Precision Rail System",
+          "Magnetic Acceleration"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 75,
+          "exoticEnergyFragments": 25
+        }
+      },
+      "assetIdOnChain": "railmaster_700_onchain_asset",
+      "assetIdOffChain": "railmaster_700_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "RailMaster 900",
+      "type": "Railgun",
+      "upgradeLevel": "Advanced",
+      "description": "The RailMaster 900 is the ultimate railgun bot, featuring high-energy capacitors and railgun gauss coils.",
+      "image": "https://example.com/railmaster_900_image.png",
+      "animation_url": "https://example.com/railmaster_900_animation.gif",
+      "external_url": "https://example.com/railmaster_900_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1500"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "200"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "350"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Higher damage per shot and improved railgun efficiency"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "High-Energy Capacitors",
+          "Railgun Gauss Coils"
+        ],
+        "resourcesRequired": {
+          "metal": 300,
+          "rareCrystals": 100,
+          "exoticEnergyFragments": 50
+        }
+      },
+      "assetIdOnChain": "railmaster_900_onchain_asset",
+      "assetIdOffChain": "railmaster_900_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "RailMaster X",
+      "type": "Railgun",
+      "upgradeLevel": "Expert",
+      "description": "The RailMaster X is an expert-level bot equipped with a quantum targeting matrix and an electromagnetic singularity projector.",
+      "image": "https://example.com/railmaster_x_image.png",
+      "animation_url": "https://example.com/railmaster_x_animation.gif",
+      "external_url": "https://example.com/railmaster_x_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1800"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "220"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "400"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "45"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Railgun shots have a chance to create an electromagnetic singularity, temporarily immobilizing enemies"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Quantum Targeting Matrix",
+          "Electromagnetic Singularity Projector"
+        ],
+        "resourcesRequired": {
+          "metal": 400,
+          "rareCrystals": 150,
+          "exoticEnergyFragments": 75
+        }
+      },
+      "assetIdOnChain": "railmaster_x_onchain_asset",
+      "assetIdOffChain": "railmaster_x_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

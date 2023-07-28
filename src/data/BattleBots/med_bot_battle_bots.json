@@ -1,0 +1,228 @@
+{
+  "battleBots": [
+    {
+      "name": "NanoHealer",
+      "type": "Med Bot",
+      "upgradeLevel": "Basic",
+      "description": "The NanoHealer is a basic med bot equipped with advanced medical scanners for improved healing capabilities.",
+      "image": "https://example.com/nanohealer_image.png",
+      "animation_url": "https://example.com/nanohealer_animation.gif",
+      "external_url": "https://example.com/nanohealer_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "800"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "100"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "200"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 150,
+          "organicMaterials": 100
+        }
+      },
+      "assetIdOnChain": "nanohealer_onchain_asset",
+      "assetIdOffChain": "nanohealer_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "NanoHealer X",
+      "type": "Med Bot",
+      "upgradeLevel": "Intermediate",
+      "description": "The NanoHealer X is an upgraded version with healing nanite infusion and improved healing rate.",
+      "image": "https://example.com/nanohealer_x_image.png",
+      "animation_url": "https://example.com/nanohealer_x_animation.gif",
+      "external_url": "https://example.com/nanohealer_x_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "900"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "120"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "250"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "45"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Improved healing rate and nanite infusion can temporarily boost ally attack power"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Medical Scanners",
+          "Healing Nanite Infusion"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "organicMaterials": 150,
+          "exoticEnergyFragments": 50
+        }
+      },
+      "assetIdOnChain": "nanohealer_x_onchain_asset",
+      "assetIdOffChain": "nanohealer_x_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "NanoHealer Z",
+      "type": "Med Bot",
+      "upgradeLevel": "Advanced",
+      "description": "The NanoHealer Z is the ultimate med bot, featuring regenerative shielding and a quantum healing field.",
+      "image": "https://example.com/nanohealer_z_image.png",
+      "animation_url": "https://example.com/nanohealer_z_animation.gif",
+      "external_url": "https://example.com/nanohealer_z_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "140"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "300"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "50"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Provides a regenerative shield to allies, creating a quantum healing field within its range"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Regenerative Shielding",
+          "Quantum Healing Field"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "organicMaterials": 200,
+          "exoticEnergyFragments": 100
+        }
+      },
+      "assetIdOnChain": "nanohealer_z_onchain_asset",
+      "assetIdOffChain": "nanohealer_z_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "NanoHealer Q",
+      "type": "Med Bot",
+      "upgradeLevel": "Expert",
+      "description": "The NanoHealer Q is an expert-level bot equipped with a singularity life transfusion and a quantum revival protocol.",
+      "image": "https://example.com/nanohealer_q_image.png",
+      "animation_url": "https://example.com/nanohealer_q_animation.gif",
+      "external_url": "https://example.com/nanohealer_q_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "160"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "350"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "55"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Life transfusion creates a singularity, temporarily resurrecting a fallen ally"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Singularity Life Transfusion",
+          "Quantum Revival Protocol"
+        ],
+        "resourcesRequired": {
+          "metal": 300,
+          "organicMaterials": 250,
+          "exoticEnergyFragments": 150
+        }
+      },
+      "assetIdOnChain": "nanohealer_q_onchain_asset",
+      "assetIdOffChain": "nanohealer_q_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

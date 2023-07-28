@@ -1,0 +1,228 @@
+{
+  "battleBots": [
+    {
+      "name": "Nanobot Repairer",
+      "type": "Repair Bot",
+      "upgradeLevel": "Basic",
+      "description": "The Nanobot Repairer is a basic repair bot equipped with nanobot swarms for efficient repairs.",
+      "image": "https://example.com/nanobot_repairer_image.png",
+      "animation_url": "https://example.com/nanobot_repairer_animation.gif",
+      "external_url": "https://example.com/nanobot_repairer_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "250"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "100"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "60"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "nanobot_repairer_onchain_asset",
+      "assetIdOffChain": "nanobot_repairer_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Nanobot Repairer X",
+      "type": "Repair Bot",
+      "upgradeLevel": "Intermediate",
+      "description": "The Nanobot Repairer X is an upgraded version with advanced repair diagnostics and nanofactory integration.",
+      "image": "https://example.com/nanobot_repairer_x_image.png",
+      "animation_url": "https://example.com/nanobot_repairer_x_animation.gif",
+      "external_url": "https://example.com/nanobot_repairer_x_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1400"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "300"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "120"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "70"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Repairs become more resilient to enemy disruption, nanofactory enhances repair capabilities"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Nanobot Swarms",
+          "Advanced Repair Diagnostics"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "nanomaterials": 150,
+          "exoticEnergyFragments": 50
+        }
+      },
+      "assetIdOnChain": "nanobot_repairer_x_onchain_asset",
+      "assetIdOffChain": "nanobot_repairer_x_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Nanobot Repairer Z",
+      "type": "Repair Bot",
+      "upgradeLevel": "Advanced",
+      "description": "The Nanobot Repairer Z is the ultimate repair bot, featuring a quantum repair matrix and nanofactory integration.",
+      "image": "https://example.com/nanobot_repairer_z_image.png",
+      "animation_url": "https://example.com/nanobot_repairer_z_animation.gif",
+      "external_url": "https://example.com/nanobot_repairer_z_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1600"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "350"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "140"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "80"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Creates a singularity reconstruction field, rapidly repairing nearby allies"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Quantum Repair Matrix",
+          "Nanofactory Integration"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "nanomaterials": 200,
+          "exoticEnergyFragments": 100
+        }
+      },
+      "assetIdOnChain": "nanobot_repairer_z_onchain_asset",
+      "assetIdOffChain": "nanobot_repairer_z_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Nanobot Repairer Q",
+      "type": "Repair Bot",
+      "upgradeLevel": "Expert",
+      "description": "The Nanobot Repairer Q is an expert-level bot equipped with a singularity reconstruction field and a quantum resonance beam.",
+      "image": "https://example.com/nanobot_repairer_q_image.png",
+      "animation_url": "https://example.com/nanobot_repairer_q_animation.gif",
+      "external_url": "https://example.com/nanobot_repairer_q_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1800"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "400"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "160"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "90"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Creates a singularity reconstruction field, rapidly repairing nearby allies"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Singularity Reconstruction Field",
+          "Quantum Resonance Beam"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "nanomaterials": 250,
+          "exoticEnergyFragments": 150
+        }
+      },
+      "assetIdOnChain": "nanobot_repairer_q_onchain_asset",
+      "assetIdOffChain": "nanobot_repairer_q_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

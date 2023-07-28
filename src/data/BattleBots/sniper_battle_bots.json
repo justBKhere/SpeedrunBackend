@@ -1,0 +1,168 @@
+{
+  "battleBots": [
+    {
+      "name": "SnipeMaster 3000",
+      "type": "Sniper",
+      "upgradeLevel": "Basic",
+      "description": "The SnipeMaster 3000 is a precision sniper bot designed to take down enemies from long distances.",
+      "image": "https://example.com/snipemaster_3000_image.png",
+      "animation_url": "https://example.com/snipemaster_3000_animation.gif",
+      "external_url": "https://example.com/snipemaster_3000_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "800"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "150"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "250"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "30"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "rareCrystals": 100
+        }
+      },
+      "assetIdOnChain": "snipemaster_3000_onchain_asset",
+      "assetIdOffChain": "snipemaster_3000_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "SnipeMaster 5000",
+      "type": "Sniper",
+      "upgradeLevel": "Intermediate",
+      "description": "The SnipeMaster 5000 is an upgraded version with advanced scopes and silent movements.",
+      "image": "https://example.com/snipemaster_5000_image.png",
+      "animation_url": "https://example.com/snipemaster_5000_animation.gif",
+      "external_url": "https://example.com/snipemaster_5000_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "900"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "200"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "300"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "35"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Improved accuracy and reduced enemy detection range"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": ["Advanced Scopes", "Silent Movements"],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 150,
+          "nanomaterials": 50
+        }
+      },
+      "assetIdOnChain": "snipemaster_5000_onchain_asset",
+      "assetIdOffChain": "snipemaster_5000_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "SnipeMaster 7000",
+      "type": "Sniper",
+      "upgradeLevel": "Advanced",
+      "description": "The SnipeMaster 7000 is the ultimate sniper bot, featuring high-caliber rounds and advanced camouflage systems.",
+      "image": "https://example.com/snipemaster_7000_image.png",
+      "animation_url": "https://example.com/snipemaster_7000_animation.gif",
+      "external_url": "https://example.com/snipemaster_7000_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "250"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "350"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Support"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Increased damage per shot, improved ability to remain undetected by enemies"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "High-Caliber Rounds",
+          "Advanced Camouflage Systems"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 200,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "snipemaster_7000_onchain_asset",
+      "assetIdOffChain": "snipemaster_7000_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

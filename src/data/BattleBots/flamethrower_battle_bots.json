@@ -1,0 +1,171 @@
+{
+  "battleBots": [
+    {
+      "name": "FireStormer",
+      "type": "Flamethrower",
+      "upgradeLevel": "Basic",
+      "description": "The FireStormer is a flamethrower bot specialized in setting enemies ablaze with its intense heat.",
+      "image": "https://example.com/firestormer_image.png",
+      "animation_url": "https://example.com/firestormer_animation.gif",
+      "external_url": "https://example.com/firestormer_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "100"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "300"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "organicMaterials": 200
+        }
+      },
+      "assetIdOnChain": "firestormer_onchain_asset",
+      "assetIdOffChain": "firestormer_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "FireStormer X",
+      "type": "Flamethrower",
+      "upgradeLevel": "Intermediate",
+      "description": "The FireStormer X is an upgraded version with advanced fuel tanks and optimized flamethrower range.",
+      "image": "https://example.com/firestormer_x_image.png",
+      "animation_url": "https://example.com/firestormer_x_animation.gif",
+      "external_url": "https://example.com/firestormer_x_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1400"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "120"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "350"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "45"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Increased fuel capacity and flamethrower range"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Fuel Tanks",
+          "Flamethrower Range Optimization"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "organicMaterials": 250,
+          "exoticEnergyFragments": 50
+        }
+      },
+      "assetIdOnChain": "firestormer_x_onchain_asset",
+      "assetIdOffChain": "firestormer_x_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "FireStormer Z",
+      "type": "Flamethrower",
+      "upgradeLevel": "Advanced",
+      "description": "The FireStormer Z is the ultimate flamethrower bot, featuring intense heat induction and napalm coating for maximum destruction.",
+      "image": "https://example.com/firestormer_z_image.png",
+      "animation_url": "https://example.com/firestormer_z_animation.gif",
+      "external_url": "https://example.com/firestormer_z_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1600"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "140"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "400"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "50"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Offensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Higher damage output and chance to set enemies on fire"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Intense Heat Induction",
+          "Napalm Coating"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "organicMaterials": 300,
+          "exoticEnergyFragments": 100
+        }
+      },
+      "assetIdOnChain": "firestormer_z_onchain_asset",
+      "assetIdOffChain": "firestormer_z_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "battleBots": [
+    {
+      "name": "Shockwave T-100",
+      "type": "Shockwave",
+      "upgradeLevel": "Basic",
+      "description": "The Shockwave T-100 is a defensive bot capable of unleashing powerful shockwaves to repel enemies.",
+      "image": "https://example.com/shockwave_t100_image.png",
+      "animation_url": "https://example.com/shockwave_t100_animation.gif",
+      "external_url": "https://example.com/shockwave_t100_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1500"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "180"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "200"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "60"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 150,
+          "exoticEnergyFragments": 100
+        }
+      },
+      "assetIdOnChain": "shockwave_t100_onchain_asset",
+      "assetIdOffChain": "shockwave_t100_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Shockwave T-200",
+      "type": "Shockwave",
+      "upgradeLevel": "Intermediate",
+      "description": "The Shockwave T-200 is an upgraded version with sonic amplifiers and shockwave frequency modulation for greater impact.",
+      "image": "https://example.com/shockwave_t200_image.png",
+      "animation_url": "https://example.com/shockwave_t200_animation.gif",
+      "external_url": "https://example.com/shockwave_t200_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1700"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "200"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "250"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "70"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Increased shockwave damage and area of effect"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Sonic Amplifiers",
+          "Shockwave Frequency Modulation"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 50
+        }
+      },
+      "assetIdOnChain": "shockwave_t200_onchain_asset",
+      "assetIdOffChain": "shockwave_t200_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Shockwave T-300",
+      "type": "Shockwave",
+      "upgradeLevel": "Advanced",
+      "description": "The Shockwave T-300 is the ultimate shockwave bot, featuring vibration absorption coating and a resonance disruption field.",
+      "image": "https://example.com/shockwave_t300_image.png",
+      "animation_url": "https://example.com/shockwave_t300_animation.gif",
+      "external_url": "https://example.com/shockwave_t300_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "1900"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "220"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "300"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "80"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Reduced recoil and self-damage from shockwave attacks, disruption field temporarily stuns nearby enemies"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Vibration Absorption Coating",
+          "Resonance Disruption Field"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "exoticEnergyFragments": 200,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "shockwave_t300_onchain_asset",
+      "assetIdOffChain": "shockwave_t300_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Shockwave T-400",
+      "type": "Shockwave",
+      "upgradeLevel": "Expert",
+      "description": "The Shockwave T-400 is an expert-level bot equipped with a quantum shockwave emitter and a singularity pulse.",
+      "image": "https://example.com/shockwave_t400_image.png",
+      "animation_url": "https://example.com/shockwave_t400_animation.gif",
+      "external_url": "https://example.com/shockwave_t400_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "2100"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "250"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "350"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "90"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Creates a quantum singularity upon shockwave impact, pulling in nearby enemies for additional damage"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Quantum Shockwave Emitter",
+          "Singularity Pulse"
+        ],
+        "resourcesRequired": {
+          "metal": 350,
+          "exoticEnergyFragments": 250,
+          "nanomaterials": 150
+        }
+      },
+      "assetIdOnChain": "shockwave_t400_onchain_asset",
+      "assetIdOffChain": "shockwave_t400_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

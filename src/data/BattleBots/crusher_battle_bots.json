@@ -1,0 +1,171 @@
+{
+  "battleBots": [
+    {
+      "name": "Crusher-X1",
+      "type": "Crusher",
+      "upgradeLevel": "Basic",
+      "description": "The Crusher-X1 is a fearsome melee bot designed to crush through enemy defenses with its mighty hammer.",
+      "image": "https://example.com/crusher_x1_image.png",
+      "animation_url": "https://example.com/crusher_x1_animation.gif",
+      "external_url": "https://example.com/crusher_x1_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "2000"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "300"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "180"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "80"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 50
+        }
+      },
+      "assetIdOnChain": "crusher_x1_onchain_asset",
+      "assetIdOffChain": "crusher_x1_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Crusher-X2",
+      "type": "Crusher",
+      "upgradeLevel": "Intermediate",
+      "description": "The Crusher-X2 is an upgraded version with reinforced crushing mechanisms and hydraulic power boosters.",
+      "image": "https://example.com/crusher_x2_image.png",
+      "animation_url": "https://example.com/crusher_x2_animation.gif",
+      "external_url": "https://example.com/crusher_x2_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "2300"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "350"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "220"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "90"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Increased crushing strength and ability to crush more resilient materials"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Reinforced Crushing Mechanisms",
+          "Hydraulic Power Boosters"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "rareCrystals": 75,
+          "nanomaterials": 25
+        }
+      },
+      "assetIdOnChain": "crusher_x2_onchain_asset",
+      "assetIdOffChain": "crusher_x2_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Crusher-X3",
+      "type": "Crusher",
+      "upgradeLevel": "Advanced",
+      "description": "The Crusher-X3 is the ultimate crusher bot, featuring advanced armor piercing and enhanced gripping claws.",
+      "image": "https://example.com/crusher_x3_image.png",
+      "animation_url": "https://example.com/crusher_x3_animation.gif",
+      "external_url": "https://example.com/crusher_x3_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "2600"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "400"
+        },
+        {
+          "trait_type": "Damage Power",
+          "value": "260"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "100"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Defensive"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Better penetration of enemy armor, improved grip for immobilizing opponents"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Armor Piercing",
+          "Enhanced Gripping Claws"
+        ],
+        "resourcesRequired": {
+          "metal": 350,
+          "rareCrystals": 100,
+          "nanomaterials": 50
+        }
+      },
+      "assetIdOnChain": "crusher_x3_onchain_asset",
+      "assetIdOffChain": "crusher_x3_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

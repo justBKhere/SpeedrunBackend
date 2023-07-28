@@ -1,0 +1,663 @@
+{
+  "battleBots": [
+    {
+      "type": "Blaster Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 150,
+        "rareCrystals": 50
+      },
+      "buildTimeHours": 6,
+      "benefitsOfUpgrade": "-",
+      "health": 1000,
+      "armor": 200,
+      "damagePower": 150,
+      "defense": 50,
+      "category": "Offensive",
+      "assetIdOnChain": "blasterbot-basic-onchain-asset",
+      "assetIdOffChain": "blasterbot-basic-offchain-asset"
+    },
+    {
+      "type": "Blaster Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": ["Advanced Weaponry", "Energy Amplification"],
+      "resourcesRequired": {
+        "metal": 200,
+        "rareCrystals": 75,
+        "exoticEnergyFragments": 25
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "Increased attack power and range",
+      "health": 1200,
+      "armor": 250,
+      "damagePower": 200,
+      "defense": 60,
+      "category": "Offensive",
+      "assetIdOnChain": "blasterbot-intermediate-onchain-asset",
+      "assetIdOffChain": "blasterbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Blaster Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "Advanced Targeting Systems",
+        "Projectile Speed Optimization"
+      ],
+      "resourcesRequired": {
+        "metal": 300,
+        "rareCrystals": 100,
+        "exoticEnergyFragments": 50
+      },
+      "buildTimeHours": 10,
+      "benefitsOfUpgrade": "Improved accuracy and faster projectile speed",
+      "health": 1500,
+      "armor": 300,
+      "damagePower": 250,
+      "defense": 70,
+      "category": "Offensive",
+      "assetIdOnChain": "blasterbot-advanced-onchain-asset",
+      "assetIdOffChain": "blasterbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Crusher Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 200,
+        "rareCrystals": 50
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "-",
+      "health": 2000,
+      "armor": 300,
+      "damagePower": 180,
+      "defense": 80,
+      "category": "Defensive",
+      "assetIdOnChain": "crusherbot-basic-onchain-asset",
+      "assetIdOffChain": "crusherbot-basic-offchain-asset"
+    },
+    {
+      "type": "Crusher Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": [
+        "Reinforced Crushing Mechanisms",
+        "Hydraulic Power Boosters"
+      ],
+      "resourcesRequired": {
+        "metal": 250,
+        "rareCrystals": 75,
+        "nanomaterials": 25
+      },
+      "buildTimeHours": 10,
+      "benefitsOfUpgrade": "Increased crushing strength and ability to crush more resilient materials",
+      "health": 2300,
+      "armor": 350,
+      "damagePower": 220,
+      "defense": 90,
+      "category": "Defensive",
+      "assetIdOnChain": "crusherbot-intermediate-onchain-asset",
+      "assetIdOffChain": "crusherbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Crusher Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "Advanced Armor Piercing",
+        "Enhanced Gripping Claws"
+      ],
+      "resourcesRequired": {
+        "metal": 350,
+        "rareCrystals": 100,
+        "nanomaterials": 50
+      },
+      "buildTimeHours": 12,
+      "benefitsOfUpgrade": "Better penetration of enemy armor, improved grip for immobilizing opponents",
+      "health": 2600,
+      "armor": 400,
+      "damagePower": 260,
+      "defense": 100,
+      "category": "Defensive",
+      "assetIdOnChain": "crusherbot-advanced-onchain-asset",
+      "assetIdOffChain": "crusherbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Sniper Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 100,
+        "rareCrystals": 100
+      },
+      "buildTimeHours": 4,
+      "benefitsOfUpgrade": "-",
+      "health": 800,
+      "armor": 150,
+      "damagePower": 250,
+      "defense": 30,
+      "category": "Support",
+      "assetIdOnChain": "sniperbot-basic-onchain-asset",
+      "assetIdOffChain": "sniperbot-basic-offchain-asset"
+    },
+    {
+      "type": "Sniper Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": ["Advanced Scopes", "Silent Movements"],
+      "resourcesRequired": {
+        "metal": 150,
+        "rareCrystals": 150,
+        "nanomaterials": 50
+      },
+      "buildTimeHours": 6,
+      "benefitsOfUpgrade": "Improved accuracy and reduced enemy detection range",
+      "health": 900,
+      "armor": 200,
+      "damagePower": 300,
+      "defense": 35,
+      "category": "Support",
+      "assetIdOnChain": "sniperbot-intermediate-onchain-asset",
+      "assetIdOffChain": "sniperbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Sniper Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "High-Caliber Rounds",
+        "Advanced Camouflage Systems"
+      ],
+      "resourcesRequired": {
+        "metal": 200,
+        "rareCrystals": 200,
+        "nanomaterials": 100
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "Increased damage per shot, improved ability to remain undetected by enemies",
+      "health": 1000,
+      "armor": 250,
+      "damagePower": 350,
+      "defense": 40,
+      "category": "Support",
+      "assetIdOnChain": "sniperbot-advanced-onchain-asset",
+      "assetIdOffChain": "sniperbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Flamethrower Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 100,
+        "organicMaterials": 200
+      },
+      "buildTimeHours": 4,
+      "benefitsOfUpgrade": "-",
+      "health": 1200,
+      "armor": 100,
+      "damagePower": 300,
+      "defense": 40,
+      "category": "Offensive",
+      "assetIdOnChain": "flamethrowerbot-basic-onchain-asset",
+      "assetIdOffChain": "flamethrowerbot-basic-offchain-asset"
+    },
+    {
+      "type": "Flamethrower Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": [
+        "Advanced Fuel Tanks",
+        "Flamethrower Range Optimization"
+      ],
+      "resourcesRequired": {
+        "metal": 150,
+        "organicMaterials": 250,
+        "exoticEnergyFragments": 50
+      },
+      "buildTimeHours": 6,
+      "benefitsOfUpgrade": "Increased fuel capacity and flamethrower range",
+      "health": 1400,
+      "armor": 120,
+      "damagePower": 350,
+      "defense": 45,
+      "category": "Offensive",
+      "assetIdOnChain": "flamethrowerbot-intermediate-onchain-asset",
+      "assetIdOffChain": "flamethrowerbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Flamethrower Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": ["Intense Heat Induction", "Napalm Coating"],
+      "resourcesRequired": {
+        "metal": 200,
+        "organicMaterials": 300,
+        "exoticEnergyFragments": 100
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "Higher damage output and chance to set enemies on fire",
+      "health": 1600,
+      "armor": 140,
+      "damagePower": 400,
+      "defense": 50,
+      "category": "Offensive",
+      "assetIdOnChain": "flamethrowerbot-advanced-onchain-asset",
+      "assetIdOffChain": "flamethrowerbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Shockwave Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 150,
+        "exoticEnergyFragments": 100
+      },
+      "buildTimeHours": 6,
+      "benefitsOfUpgrade": "-",
+      "health": 1500,
+      "armor": 180,
+      "damagePower": 200,
+      "defense": 60,
+      "category": "Defensive",
+      "assetIdOnChain": "shockwavebot-basic-onchain-asset",
+      "assetIdOffChain": "shockwavebot-basic-offchain-asset"
+    },
+    {
+      "type": "Shockwave Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": [
+        "Sonic Amplifiers",
+        "Shockwave Frequency Modulation"
+      ],
+      "resourcesRequired": {
+        "metal": 200,
+        "exoticEnergyFragments": 150,
+        "nanomaterials": 50
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "Increased shockwave damage and area of effect",
+      "health": 1700,
+      "armor": 200,
+      "damagePower": 250,
+      "defense": 70,
+      "category": "Defensive",
+      "assetIdOnChain": "shockwavebot-intermediate-onchain-asset",
+      "assetIdOffChain": "shockwavebot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Shockwave Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "Vibration Absorption Coating",
+        "Resonance Disruption Field"
+      ],
+      "resourcesRequired": {
+        "metal": 250,
+        "exoticEnergyFragments": 200,
+        "nanomaterials": 100
+      },
+      "buildTimeHours": 10,
+      "benefitsOfUpgrade": "Reduced recoil and self-damage from shockwave attacks, disruption field temporarily stuns nearby enemies",
+      "health": 1900,
+      "armor": 220,
+      "damagePower": 300,
+      "defense": 80,
+      "category": "Defensive",
+      "assetIdOnChain": "shockwavebot-advanced-onchain-asset",
+      "assetIdOffChain": "shockwavebot-advanced-offchain-asset"
+    },
+    {
+      "type": "Shockwave Bot",
+      "upgradeLevel": "Expert",
+      "researchTreeRequirements": [
+        "Quantum Shockwave Emitter",
+        "Singularity Pulse"
+      ],
+      "resourcesRequired": {
+        "metal": 350,
+        "exoticEnergyFragments": 250,
+        "nanomaterials": 150
+      },
+      "buildTimeHours": 12,
+      "benefitsOfUpgrade": "Creates a quantum singularity upon shockwave impact, pulling in nearby enemies for additional damage",
+      "health": 2100,
+      "armor": 250,
+      "damagePower": 350,
+      "defense": 90,
+      "category": "Defensive",
+      "assetIdOnChain": "shockwavebot-expert-onchain-asset",
+      "assetIdOffChain": "shockwavebot-expert-offchain-asset"
+    },
+    {
+      "type": "Plasma Caster Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 100,
+        "rareCrystals": 100
+      },
+      "buildTimeHours": 4,
+      "benefitsOfUpgrade": "-",
+      "health": 800,
+      "armor": 100,
+      "damagePower": 250,
+      "defense": 40,
+      "category": "Offensive",
+      "assetIdOnChain": "plasmacasterbot-basic-onchain-asset",
+      "assetIdOffChain": "plasmacasterbot-basic-offchain-asset"
+    },
+    {
+      "type": "Plasma Caster Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": [
+        "Plasma Focus Optics",
+        "Ionized Plasma Emission"
+      ],
+      "resourcesRequired": {
+        "metal": 150,
+        "rareCrystals": 150,
+        "exoticEnergyFragments": 50
+      },
+      "buildTimeHours": 6,
+      "benefitsOfUpgrade": "Increased damage and longer plasma range",
+      "health": 900,
+      "armor": 120,
+      "damagePower": 300,
+      "defense": 45,
+      "category": "Offensive",
+      "assetIdOnChain": "plasmacasterbot-intermediate-onchain-asset",
+      "assetIdOffChain": "plasmacasterbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Plasma Caster Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "Plasma Compression Chamber",
+        "Plasma Beam Amplification"
+      ],
+      "resourcesRequired": {
+        "metal": 200,
+        "rareCrystals": 200,
+        "exoticEnergyFragments": 100
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "Higher damage output and wider plasma beam",
+      "health": 1000,
+      "armor": 140,
+      "damagePower": 350,
+      "defense": 50,
+      "category": "Offensive",
+      "assetIdOnChain": "plasmacasterbot-advanced-onchain-asset",
+      "assetIdOffChain": "plasmacasterbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Plasma Caster Bot",
+      "upgradeLevel": "Expert",
+      "researchTreeRequirements": [
+        "Quantum Plasma Core",
+        "Plasma Singularity Projector"
+      ],
+      "resourcesRequired": {
+        "metal": 250,
+        "rareCrystals": 250,
+        "exoticEnergyFragments": 150
+      },
+      "buildTimeHours": 10,
+      "benefitsOfUpgrade": "Unleashes a plasma singularity, damaging all enemies in its area of effect",
+      "health": 1200,
+      "armor": 160,
+      "damagePower": 400,
+      "defense": 55,
+      "category": "Offensive",
+      "assetIdOnChain": "plasmacasterbot-expert-onchain-asset",
+      "assetIdOffChain": "plasmacasterbot-expert-offchain-asset"
+    },
+    {
+      "type": "Railgun Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 150,
+        "rareCrystals": 50
+      },
+      "buildTimeHours": 6,
+      "benefitsOfUpgrade": "-",
+      "health": 1000,
+      "armor": 150,
+      "damagePower": 250,
+      "defense": 30,
+      "category": "Offensive",
+      "assetIdOnChain": "railgunbot-basic-onchain-asset",
+      "assetIdOffChain": "railgunbot-basic-offchain-asset"
+    },
+    {
+      "type": "Railgun Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": [
+        "Precision Rail System",
+        "Magnetic Acceleration"
+      ],
+      "resourcesRequired": {
+        "metal": 200,
+        "rareCrystals": 75,
+        "exoticEnergyFragments": 25
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "Increased railgun accuracy and projectile speed",
+      "health": 1200,
+      "armor": 180,
+      "damagePower": 300,
+      "defense": 35,
+      "category": "Offensive",
+      "assetIdOnChain": "railgunbot-intermediate-onchain-asset",
+      "assetIdOffChain": "railgunbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Railgun Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "High-Energy Capacitors",
+        "Railgun Gauss Coils"
+      ],
+      "resourcesRequired": {
+        "metal": 300,
+        "rareCrystals": 100,
+        "exoticEnergyFragments": 50
+      },
+      "buildTimeHours": 10,
+      "benefitsOfUpgrade": "Higher damage per shot and improved railgun efficiency",
+      "health": 1500,
+      "armor": 200,
+      "damagePower": 350,
+      "defense": 40,
+      "category": "Offensive",
+      "assetIdOnChain": "railgunbot-advanced-onchain-asset",
+      "assetIdOffChain": "railgunbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Railgun Bot",
+      "upgradeLevel": "Expert",
+      "researchTreeRequirements": [
+        "Quantum Targeting Matrix",
+        "Electromagnetic Singularity Projector"
+      ],
+      "resourcesRequired": {
+        "metal": 400,
+        "rareCrystals": 150,
+        "exoticEnergyFragments": 75
+      },
+      "buildTimeHours": 12,
+      "benefitsOfUpgrade": "Railgun shots have a chance to create an electromagnetic singularity, temporarily immobilizing enemies",
+      "health": 1800,
+      "armor": 220,
+      "damagePower": 400,
+      "defense": 45,
+      "category": "Offensive",
+      "assetIdOnChain": "railgunbot-expert-onchain-asset",
+      "assetIdOffChain": "railgunbot-expert-offchain-asset"
+    },
+    {
+      "type": "Guardian Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 200,
+        "rareCrystals": 100
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "-",
+      "health": 2000,
+      "armor": 400,
+      "damagePower": 100,
+      "defense": 100,
+      "category": "Defensive",
+      "assetIdOnChain": "guardianbot-basic-onchain-asset",
+      "assetIdOffChain": "guardianbot-basic-offchain-asset"
+    },
+    {
+      "type": "Guardian Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": [
+        "Enhanced Shielding",
+        "Guardian Defense Protocols"
+      ],
+      "resourcesRequired": {
+        "metal": 250,
+        "rareCrystals": 150,
+        "nanomaterials": 50
+      },
+      "buildTimeHours": 10,
+      "benefitsOfUpgrade": "Improved shield strength and regeneration",
+      "health": 2300,
+      "armor": 450,
+      "damagePower": 120,
+      "defense": 110,
+      "category": "Defensive",
+      "assetIdOnChain": "guardianbot-intermediate-onchain-asset",
+      "assetIdOffChain": "guardianbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Guardian Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "Adaptive Energy Redistribution",
+        "Reinforced Armor Plating"
+      ],
+      "resourcesRequired": {
+        "metal": 350,
+        "rareCrystals": 200,
+        "nanomaterials": 100
+      },
+      "buildTimeHours": 12,
+      "benefitsOfUpgrade": "More efficient shield energy usage and increased armor protection",
+      "health": 2600,
+      "armor": 500,
+      "damagePower": 140,
+      "defense": 120,
+      "category": "Defensive",
+      "assetIdOnChain": "guardianbot-advanced-onchain-asset",
+      "assetIdOffChain": "guardianbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Guardian Bot",
+      "upgradeLevel": "Expert",
+      "researchTreeRequirements": [
+        "Quantum Shield Matrix",
+        "Null-Point Singularity Generator"
+      ],
+      "resourcesRequired": {
+        "metal": 450,
+        "rareCrystals": 250,
+        "exoticEnergyFragments": 150
+      },
+      "buildTimeHours": 14,
+      "benefitsOfUpgrade": "Temporarily create a null-point singularity, nullifying incoming enemy projectiles",
+      "health": 3000,
+      "armor": 550,
+      "damagePower": 160,
+      "defense": 130,
+      "category": "Defensive",
+      "assetIdOnChain": "guardianbot-expert-onchain-asset",
+      "assetIdOffChain": "guardianbot-expert-offchain-asset"
+    },
+    {
+      "type": "Repair Bot",
+      "upgradeLevel": "Basic",
+      "researchTreeRequirements": [],
+      "resourcesRequired": {
+        "metal": 100,
+        "nanomaterials": 100
+      },
+      "buildTimeHours": 4,
+      "benefitsOfUpgrade": "-",
+      "health": 1200,
+      "armor": 250,
+      "damagePower": 100,
+      "defense": 60,
+      "category": "Support",
+      "assetIdOnChain": "repairbot-basic-onchain-asset",
+      "assetIdOffChain": "repairbot-basic-offchain-asset"
+    },
+    {
+      "type": "Repair Bot",
+      "upgradeLevel": "Intermediate",
+      "researchTreeRequirements": [
+        "Nanobot Swarms",
+        "Advanced Repair Diagnostics"
+      ],
+      "resourcesRequired": {
+        "metal": 150,
+        "nanomaterials": 150,
+        "exoticEnergyFragments": 50
+      },
+      "buildTimeHours": 6,
+      "benefitsOfUpgrade": "Increased repair speed and efficiency",
+      "health": 1400,
+      "armor": 300,
+      "damagePower": 120,
+      "defense": 70,
+      "category": "Support",
+      "assetIdOnChain": "repairbot-intermediate-onchain-asset",
+      "assetIdOffChain": "repairbot-intermediate-offchain-asset"
+    },
+    {
+      "type": "Repair Bot",
+      "upgradeLevel": "Advanced",
+      "researchTreeRequirements": [
+        "Quantum Repair Matrix",
+        "Nanofactory Integration"
+      ],
+      "resourcesRequired": {
+        "metal": 200,
+        "nanomaterials": 200,
+        "exoticEnergyFragments": 100
+      },
+      "buildTimeHours": 8,
+      "benefitsOfUpgrade": "Repairs become more resilient to enemy disruption, nanofactory enhances repair capabilities",
+      "health": 1600,
+      "armor": 350,
+      "damagePower": 140,
+      "defense": 80,
+      "category": "Support",
+      "assetIdOnChain": "repairbot-advanced-onchain-asset",
+      "assetIdOffChain": "repairbot-advanced-offchain-asset"
+    },
+    {
+      "type": "Repair Bot",
+      "upgradeLevel": "Expert",
+      "researchTreeRequirements": [
+        "Singularity Reconstruction Field",
+        "Quantum Resonance Beam"
+      ],
+      "resourcesRequired": {
+        "metal": 250,
+        "nanomaterials": 250,
+        "exoticEnergyFragments": 150
+      },
+      "buildTimeHours": 10,
+      "benefitsOfUpgrade": "Creates a singularity reconstruction field, rapidly repairing nearby allies",
+      "health": 1800,
+      "armor": 400,
+      "damagePower": 160,
+      "defense": 90,
+      "category": "Support",
+      "assetIdOnChain": "repairbot-expert-onchain-asset",
+      "assetIdOffChain": "repairbot-expert-offchain-asset"
+    }
+  ]
+}
