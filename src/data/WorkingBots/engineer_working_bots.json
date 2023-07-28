@@ -1,0 +1,228 @@
+{
+  "workingBots": [
+    {
+      "name": "Wrenchmaster",
+      "type": "Engineer",
+      "upgradeLevel": "Basic",
+      "description": "The Wrenchmaster is equipped with essential engineering capabilities for maintenance and repairs.",
+      "image": "https://example.com/wrenchmaster_image.png",
+      "animation_url": "https://example.com/wrenchmaster_animation.gif",
+      "external_url": "https://example.com/wrenchmaster_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "300"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "50"
+        },
+        {
+          "trait_type": "Repair Power",
+          "value": "50"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "10"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Engineer"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "organicMaterials": 50
+        }
+      },
+      "assetIdOnChain": "wrenchmaster_onchain_asset",
+      "assetIdOffChain": "wrenchmaster_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Buildertron",
+      "type": "Engineer",
+      "upgradeLevel": "Intermediate",
+      "description": "The Buildertron is an upgraded version with improved construction and repair speed.",
+      "image": "https://example.com/buildertron_image.png",
+      "animation_url": "https://example.com/buildertron_animation.gif",
+      "external_url": "https://example.com/buildertron_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "400"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "75"
+        },
+        {
+          "trait_type": "Repair Power",
+          "value": "75"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "15"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Engineer"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Construction and repair speed increased by 20%"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Robotic Manufacturing Basics",
+          "Automated Assembly Techniques"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "organicMaterials": 100,
+          "nanomaterials": 50
+        }
+      },
+      "assetIdOnChain": "buildertron_onchain_asset",
+      "assetIdOffChain": "buildertron_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Techsage",
+      "type": "Engineer",
+      "upgradeLevel": "Advanced",
+      "description": "The Techsage is equipped with artificial intelligence integration and neural network advancements.",
+      "image": "https://example.com/techsage_image.png",
+      "animation_url": "https://example.com/techsage_animation.gif",
+      "external_url": "https://example.com/techsage_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "500"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "100"
+        },
+        {
+          "trait_type": "Repair Power",
+          "value": "100"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "20"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Engineer"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Diagnostic speed improved by 25%, resource consumption reduced by 15%"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Artificial Intelligence Integration",
+          "Neural Network Advancements"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "exoticEnergyFragments": 100,
+          "nanomaterials": 75
+        }
+      },
+      "assetIdOnChain": "techsage_onchain_asset",
+      "assetIdOffChain": "techsage_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Nanomage",
+      "type": "Engineer",
+      "upgradeLevel": "Expert",
+      "description": "The Nanomage is the pinnacle of engineering, featuring nanobot repair systems and nanoscale manipulation.",
+      "image": "https://example.com/nanomage_image.png",
+      "animation_url": "https://example.com/nanomage_animation.gif",
+      "external_url": "https://example.com/nanomage_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "700"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "150"
+        },
+        {
+          "trait_type": "Repair Power",
+          "value": "150"
+        },
+        {
+          "trait_type": "Defense",
+          "value": "30"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Engineer"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Repairs restore robots to 80% health, repair speed increased by 40%"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Nanobot Repair Systems",
+          "Nanoscale Manipulation"
+        ],
+        "resourcesRequired": {
+          "metal": 300,
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "nanomage_onchain_asset",
+      "assetIdOffChain": "nanomage_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

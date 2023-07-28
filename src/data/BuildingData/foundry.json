@@ -1,0 +1,206 @@
+{
+  "buildings": [
+    {
+      "name": "Foundry",
+      "type": "Foundry",
+      "upgradeLevel": "1",
+      "description": "A basic foundry for manufacturing robotic components and structures.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Foundry"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "1"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Robotic Manufacturing Basics",
+          "Automated Assembly Techniques"
+        ],
+        "resourcesRequired": {
+          "metal": 100,
+          "organicMaterials": 75
+        },
+        "typeOfBotsRequired": ["Engineers", "Maintenance Drones"],
+        "botEfficiency": 4,
+        "quantityOfEachResource": {
+          "metal": 100,
+          "organicMaterials": 75
+        },
+        "buildTimeHours": 8,
+        "onChainState": "Minted",
+        "onChainAddress": "0x4567890abcdef123",
+        "offChainAddress": "foundry.abc"
+      }
+    },
+    {
+      "name": "Foundry",
+      "type": "Foundry",
+      "upgradeLevel": "2",
+      "description": "An advanced foundry with capabilities for robotic aesthetics and modular architecture.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Foundry"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "2"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Robotic Aesthetics",
+          "Modular Architecture"
+        ],
+        "resourcesRequired": {
+          "metal": 75,
+          "rareCrystals": 50
+        },
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 75,
+          "rareCrystals": 50
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0x7890abcdef123456",
+        "offChainAddress": "foundry.xyz"
+      }
+    },
+    {
+      "name": "Foundry",
+      "type": "Foundry",
+      "upgradeLevel": "3",
+      "description": "An advanced foundry integrating artificial intelligence and neural network advancements.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Foundry"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "3"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Artificial Intelligence Integration",
+          "Neural Network Advancements"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "exoticEnergyFragments": 100,
+          "nanomaterials": 75
+        },
+        "botEfficiency": 5,
+        "quantityOfEachResource": {
+          "metal": 150,
+          "exoticEnergyFragments": 100,
+          "nanomaterials": 75
+        },
+        "buildTimeHours": 12,
+        "onChainState": "Minted",
+        "onChainAddress": "0xabcdef1234567890",
+        "offChainAddress": "foundry.mno"
+      }
+    },
+    {
+      "name": "Foundry",
+      "type": "Foundry",
+      "upgradeLevel": "4",
+      "description": "An advanced foundry focusing on advanced material sciences and exotic coating technology.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Foundry"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "4"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Material Sciences",
+          "Exotic Coating Technology"
+        ],
+        "resourcesRequired": {
+          "metal": 100,
+          "rareCrystals": 75,
+          "nanomaterials": 50
+        },
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 100,
+          "rareCrystals": 75,
+          "nanomaterials": 50
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0x7890abcdef123456",
+        "offChainAddress": "foundry.pqr"
+      }
+    },
+    {
+      "name": "Foundry",
+      "type": "Foundry",
+      "upgradeLevel": "5",
+      "description": "An advanced foundry integrating nanofactory capabilities and self-repair protocols.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Foundry"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "5"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Nanofactory Integration",
+          "Self-Repair Protocols"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "nanomaterials": 150,
+          "exoticEnergyFragments": 100
+        },
+        "botEfficiency": 5,
+        "quantityOfEachResource": {
+          "metal": 200,
+          "nanomaterials": 150,
+          "exoticEnergyFragments": 100
+        },
+        "buildTimeHours": 12,
+        "onChainState": "Minted",
+        "onChainAddress": "0x1234567890efghij",
+        "offChainAddress": "foundry.qrs"
+      }
+    }
+  ]
+}

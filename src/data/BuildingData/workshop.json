@@ -1,0 +1,208 @@
+{
+  "buildings": [
+    {
+      "name": "Workshop",
+      "type": "Workshop",
+      "upgradeLevel": "1",
+      "description": "A basic workshop equipped with basic repair systems and diagnostic interfaces.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Workshop"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "1"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Basic Repair Systems",
+          "Diagnostic Interfaces"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "organicMaterials": 100
+        },
+        "typeOfBotsRequired": ["Engineers", "Maintenance Drones"],
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 150,
+          "organicMaterials": 100
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0xabcdef1234567890",
+        "offChainAddress": "workshop.abc"
+      }
+    },
+    {
+      "name": "Workshop",
+      "type": "Workshop",
+      "upgradeLevel": "2",
+      "description": "An advanced workshop with advanced repair techniques and modular restoration units.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Workshop"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "2"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Repair Techniques",
+          "Modular Restoration Units"
+        ],
+        "resourcesRequired": {
+          "metal": 100,
+          "rareCrystals": 75,
+          "nanomaterials": 50
+        },
+        "botEfficiency": 4,
+        "quantityOfEachResource": {
+          "metal": 100,
+          "rareCrystals": 75,
+          "nanomaterials": 50
+        },
+        "buildTimeHours": 8,
+        "onChainState": "Minted",
+        "onChainAddress": "0x1234567890efghij",
+        "offChainAddress": "workshop.xyz"
+      }
+    },
+    {
+      "name": "Workshop",
+      "type": "Workshop",
+      "upgradeLevel": "3",
+      "description": "An advanced workshop with nanobot repair systems and nanoscale manipulation capabilities.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Workshop"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "3"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Nanobot Repair Systems",
+          "Nanoscale Manipulation"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 100
+        },
+        "botEfficiency": 5,
+        "quantityOfEachResource": {
+          "metal": 200,
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 100
+        },
+        "buildTimeHours": 12,
+        "onChainState": "Minted",
+        "onChainAddress": "0x4567890abcdef123",
+        "offChainAddress": "workshop.mno"
+      }
+    },
+    {
+      "name": "Workshop",
+      "type": "Workshop",
+      "upgradeLevel": "4",
+      "description": "An advanced workshop focusing on defensive reinforcements and armor integration.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Workshop"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "4"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Defensive Reinforcements",
+          "Armor Integration"
+        ],
+        "resourcesRequired": {
+          "metal": 100,
+          "rareCrystals": 75,
+          "exoticEnergyFragments": 50
+        },
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 100,
+          "rareCrystals": 75,
+          "exoticEnergyFragments": 50
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0x7890abcdef123456",
+        "offChainAddress": "workshop.pqr"
+      }
+    },
+    {
+      "name": "Workshop",
+      "type": "Workshop",
+      "upgradeLevel": "5",
+      "description": "An advanced workshop with holographic repair technology and augmented reality assistance.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Workshop"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "5"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Holographic Repair Technology",
+          "Augmented Reality Assistance"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "exoticEnergyFragments": 100,
+          "nanomaterials": 75
+        },
+        "botEfficiency": 5,
+        "quantityOfEachResource": {
+          "metal": 150,
+          "exoticEnergyFragments": 100,
+          "nanomaterials": 75
+        },
+        "buildTimeHours": 12,
+        "onChainState": "Minted",
+        "onChainAddress": "0x1234567890efghij",
+        "offChainAddress": "workshop.qrs"
+      }
+    }
+  ]
+}

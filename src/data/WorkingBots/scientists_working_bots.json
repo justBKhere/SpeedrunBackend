@@ -1,0 +1,224 @@
+{
+  "workingBots": [
+    {
+      "name": "GeniusLab",
+      "type": "Scientist",
+      "upgradeLevel": "Basic",
+      "description": "The GeniusLab scientist bot is equipped with basic research capabilities.",
+      "image": "https://example.com/geniuslab_image.png",
+      "animation_url": "https://example.com/geniuslab_animation.gif",
+      "external_url": "https://example.com/geniuslab_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "25"
+        },
+        {
+          "trait_type": "Data Analysis Speed",
+          "value": "25"
+        },
+        {
+          "trait_type": "Complex Research Handling",
+          "value": "25"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Scientist"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "organicMaterials": 50
+        }
+      },
+      "assetIdOnChain": "geniuslab_onchain_asset",
+      "assetIdOffChain": "geniuslab_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Innovatron",
+      "type": "Scientist",
+      "upgradeLevel": "Intermediate",
+      "description": "The Innovatron scientist bot has advanced architecture and transparent materials for improved research capabilities.",
+      "image": "https://example.com/innovatron_image.png",
+      "animation_url": "https://example.com/innovatron_animation.gif",
+      "external_url": "https://example.com/innovatron_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "250"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "40"
+        },
+        {
+          "trait_type": "Data Analysis Speed",
+          "value": "40"
+        },
+        {
+          "trait_type": "Complex Research Handling",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Scientist"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Data analysis speed increased by 20%, ability to handle more complex research tasks"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Architecture",
+          "Transparent Materials"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "nanomaterials": 75
+        }
+      },
+      "assetIdOnChain": "innovatron_onchain_asset",
+      "assetIdOffChain": "innovatron_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Quantron",
+      "type": "Scientist",
+      "upgradeLevel": "Advanced",
+      "description": "The Quantron scientist bot possesses advanced AI algorithms and quantum data processing for efficient research.",
+      "image": "https://example.com/quantron_image.png",
+      "animation_url": "https://example.com/quantron_animation.gif",
+      "external_url": "https://example.com/quantron_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "300"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "60"
+        },
+        {
+          "trait_type": "Data Analysis Speed",
+          "value": "60"
+        },
+        {
+          "trait_type": "Complex Research Handling",
+          "value": "60"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Scientist"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Research efficiency improved by 25%, unlocks more advanced technologies"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced AI Algorithms",
+          "Quantum Data Processing"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "exoticEnergyFragments": 100,
+          "nanomaterials": 75
+        }
+      },
+      "assetIdOnChain": "quantron_onchain_asset",
+      "assetIdOffChain": "quantron_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "EtherealSage",
+      "type": "Scientist",
+      "upgradeLevel": "Expert",
+      "description": "The EtherealSage scientist bot holds cosmic knowledge and theories of the multiverse, granting access to unique research.",
+      "image": "https://example.com/etherealsage_image.png",
+      "animation_url": "https://example.com/etherealsage_animation.gif",
+      "external_url": "https://example.com/etherealsage_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "400"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "80"
+        },
+        {
+          "trait_type": "Data Analysis Speed",
+          "value": "80"
+        },
+        {
+          "trait_type": "Complex Research Handling",
+          "value": "80"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Scientist"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Access to unique research, uncover hidden knowledge and bonuses"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": ["Cosmic Knowledge", "Multiverse Theories"],
+        "resourcesRequired": {
+          "metal": 300,
+          "rareCrystals": 150,
+          "exoticEnergyFragments": 100
+        }
+      },
+      "assetIdOnChain": "etherealsage_onchain_asset",
+      "assetIdOffChain": "etherealsage_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

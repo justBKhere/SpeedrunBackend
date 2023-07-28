@@ -1,0 +1,171 @@
+{
+  "workingBots": [
+    {
+      "name": "Sentinel",
+      "type": "Security Operator",
+      "upgradeLevel": "Basic",
+      "description": "The Sentinel security operator is equipped with basic defense systems and energy shield technology.",
+      "image": "https://example.com/sentinel_image.png",
+      "animation_url": "https://example.com/sentinel_animation.gif",
+      "external_url": "https://example.com/sentinel_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "25"
+        },
+        {
+          "trait_type": "Defense Capabilities",
+          "value": "25"
+        },
+        {
+          "trait_type": "Energy Shields",
+          "value": "25"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Security Operator"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "organicMaterials": 50
+        }
+      },
+      "assetIdOnChain": "sentinel_onchain_asset",
+      "assetIdOffChain": "sentinel_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "DefenderX",
+      "type": "Security Operator",
+      "upgradeLevel": "Intermediate",
+      "description": "The DefenderX security operator is armed with advanced weaponry and defensive strategies.",
+      "image": "https://example.com/defenderx_image.png",
+      "animation_url": "https://example.com/defenderx_animation.gif",
+      "external_url": "https://example.com/defenderx_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "250"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "40"
+        },
+        {
+          "trait_type": "Defense Capabilities",
+          "value": "40"
+        },
+        {
+          "trait_type": "Energy Shields",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Security Operator"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "More powerful defensive weaponry, improved combat tactics"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Weaponry",
+          "Defensive Strategies"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 75,
+          "exoticEnergyFragments": 50
+        }
+      },
+      "assetIdOnChain": "defenderx_onchain_asset",
+      "assetIdOffChain": "defenderx_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Wardengeist",
+      "type": "Security Operator",
+      "upgradeLevel": "Advanced",
+      "description": "The Wardengeist security operator wields force field technology and particle barrier systems.",
+      "image": "https://example.com/wardengeist_image.png",
+      "animation_url": "https://example.com/wardengeist_animation.gif",
+      "external_url": "https://example.com/wardengeist_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "300"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "60"
+        },
+        {
+          "trait_type": "Defense Capabilities",
+          "value": "60"
+        },
+        {
+          "trait_type": "Energy Shields",
+          "value": "60"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Security Operator"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Advanced force fields, generate particle barriers for enhanced protection"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Force Field Technology",
+          "Particle Barrier Systems"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "wardengeist_onchain_asset",
+      "assetIdOffChain": "wardengeist_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

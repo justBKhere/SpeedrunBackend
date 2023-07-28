@@ -1,0 +1,202 @@
+{
+  "buildings": [
+    {
+      "name": "Observation Deck",
+      "type": "Observation Deck",
+      "upgradeLevel": "1",
+      "description": "A basic observation deck equipped with enhanced observation equipment.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Observation Deck"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "1"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Basic Astronomy",
+          "Enhanced Observation Equipment"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 100
+        },
+        "typeOfBotsRequired": ["Scientists", "Drone Operators"],
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 150,
+          "rareCrystals": 100
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0x4567890abcdef123",
+        "offChainAddress": "observationdeck.abc"
+      }
+    },
+    {
+      "name": "Observation Deck",
+      "type": "Observation Deck",
+      "upgradeLevel": "2",
+      "description": "An advanced observation deck with advanced lighting systems and holographic imaging.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Observation Deck"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "2"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Lighting Systems",
+          "Holographic Imaging"
+        ],
+        "resourcesRequired": {
+          "metal": 100,
+          "exoticEnergyFragments": 75,
+          "nanomaterials": 50
+        },
+        "botEfficiency": 4,
+        "quantityOfEachResource": {
+          "metal": 100,
+          "exoticEnergyFragments": 75,
+          "nanomaterials": 50
+        },
+        "buildTimeHours": 8,
+        "onChainState": "Minted",
+        "onChainAddress": "0xabcdef1234567890",
+        "offChainAddress": "observationdeck.xyz"
+      }
+    },
+    {
+      "name": "Observation Deck",
+      "type": "Observation Deck",
+      "upgradeLevel": "3",
+      "description": "An advanced observation deck with drone technology and remote sensing capabilities.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Observation Deck"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "3"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": ["Drone Technology", "Remote Sensing"],
+        "resourcesRequired": {
+          "metal": 200,
+          "organicMaterials": 150,
+          "rareCrystals": 100
+        },
+        "botEfficiency": 5,
+        "quantityOfEachResource": {
+          "metal": 200,
+          "organicMaterials": 150,
+          "rareCrystals": 100
+        },
+        "buildTimeHours": 12,
+        "onChainState": "Minted",
+        "onChainAddress": "0x7890abcdef123456",
+        "offChainAddress": "observationdeck.mno"
+      }
+    },
+    {
+      "name": "Observation Deck",
+      "type": "Observation Deck",
+      "upgradeLevel": "4",
+      "description": "An advanced observation deck focusing on radar technology and holographic mapping.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Observation Deck"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "4"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": ["Radar Technology", "Holographic Mapping"],
+        "resourcesRequired": {
+          "metal": 100,
+          "exoticEnergyFragments": 75,
+          "nanomaterials": 50
+        },
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 100,
+          "exoticEnergyFragments": 75,
+          "nanomaterials": 50
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0x1234567890efghij",
+        "offChainAddress": "observationdeck.pqr"
+      }
+    },
+    {
+      "name": "Observation Deck",
+      "type": "Observation Deck",
+      "upgradeLevel": "5",
+      "description": "An advanced observation deck focusing on quantum astronomy and future vision projection.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Observation Deck"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "5"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Quantum Astronomy",
+          "Future Vision Projection"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 100,
+          "exoticEnergyFragments": 75
+        },
+        "botEfficiency": 4,
+        "quantityOfEachResource": {
+          "metal": 150,
+          "rareCrystals": 100,
+          "exoticEnergyFragments": 75
+        },
+        "buildTimeHours": 8,
+        "onChainState": "Minted",
+        "onChainAddress": "0x4567890abcdef123",
+        "offChainAddress": "observationdeck.qrs"
+      }
+    }
+  ]
+}

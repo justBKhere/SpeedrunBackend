@@ -1,0 +1,204 @@
+{
+  "buildings": [
+    {
+      "name": "Research Center",
+      "type": "Research Center",
+      "upgradeLevel": "1",
+      "description": "A basic research center focusing on data collection and advanced sensor technology.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Research Center"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "1"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Basic Data Collection",
+          "Advanced Sensor Technology"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 100,
+          "nanomaterials": 75
+        },
+        "typeOfBotsRequired": ["Scientists", "Engineers"],
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 150,
+          "rareCrystals": 100,
+          "nanomaterials": 75
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0x1234567890abcdef",
+        "offChainAddress": "researchcenter.abc"
+      }
+    },
+    {
+      "name": "Research Center",
+      "type": "Research Center",
+      "upgradeLevel": "2",
+      "description": "An advanced research center specializing in artistic expression and cultural enrichment.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Research Center"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "2"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Artistic Expression",
+          "Cultural Enrichment"
+        ],
+        "resourcesRequired": {
+          "organicMaterials": 75,
+          "rareCrystals": 50
+        },
+        "botEfficiency": 4,
+        "quantityOfEachResource": {
+          "organicMaterials": 75,
+          "rareCrystals": 50
+        },
+        "buildTimeHours": 8,
+        "onChainState": "Minted",
+        "onChainAddress": "0x7890abcdef123456",
+        "offChainAddress": "researchcenter.xyz"
+      }
+    },
+    {
+      "name": "Research Center",
+      "type": "Research Center",
+      "upgradeLevel": "3",
+      "description": "An advanced research center with a focus on advanced architecture and transparent materials.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Research Center"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "3"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Architecture",
+          "Transparent Materials"
+        ],
+        "resourcesRequired": {
+          "metal": 100,
+          "nanomaterials": 75
+        },
+        "botEfficiency": 3,
+        "quantityOfEachResource": {
+          "metal": 100,
+          "nanomaterials": 75
+        },
+        "buildTimeHours": 6,
+        "onChainState": "Minted",
+        "onChainAddress": "0xabcdef1234567890",
+        "offChainAddress": "researchcenter.pqr"
+      }
+    },
+    {
+      "name": "Research Center",
+      "type": "Research Center",
+      "upgradeLevel": "4",
+      "description": "An advanced research center specializing in security protocols and automated defense systems.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Research Center"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "4"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Security Protocols",
+          "Automated Defense Systems"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 150,
+          "exoticEnergyFragments": 100
+        },
+        "botEfficiency": 5,
+        "quantityOfEachResource": {
+          "metal": 200,
+          "rareCrystals": 150,
+          "exoticEnergyFragments": 100
+        },
+        "buildTimeHours": 12,
+        "onChainState": "Minted",
+        "onChainAddress": "0xuvwxyz123456789",
+        "offChainAddress": "researchcenter.mno"
+      }
+    },
+    {
+      "name": "Research Center",
+      "type": "Research Center",
+      "upgradeLevel": "5",
+      "description": "An advanced research center focusing on quantum communication and cosmic data link.",
+      "attributes": [
+        {
+          "trait_type": "Type",
+          "value": "Research Center"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "5"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "12"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Quantum Communication",
+          "Cosmic Data Link"
+        ],
+        "resourcesRequired": {
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 100
+        },
+        "botEfficiency": 5,
+        "quantityOfEachResource": {
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 100
+        },
+        "buildTimeHours": 12,
+        "onChainState": "Minted",
+        "onChainAddress": "0x1234567890efghij",
+        "offChainAddress": "researchcenter.qrs"
+      }
+    }
+  ]
+}

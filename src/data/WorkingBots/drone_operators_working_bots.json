@@ -1,0 +1,227 @@
+{
+  "workingBots": [
+    {
+      "name": "Skyswoop",
+      "type": "Drone Operator",
+      "upgradeLevel": "Basic",
+      "description": "The Skyswoop drone operator specializes in basic drone deployment and payload delivery.",
+      "image": "https://example.com/skyswoop_image.png",
+      "animation_url": "https://example.com/skyswoop_animation.gif",
+      "external_url": "https://example.com/skyswoop_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "25"
+        },
+        {
+          "trait_type": "Speed and Agility",
+          "value": "25"
+        },
+        {
+          "trait_type": "Payload Capacity",
+          "value": "25"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Drone Operator"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 100,
+          "organicMaterials": 50
+        }
+      },
+      "assetIdOnChain": "skyswoop_onchain_asset",
+      "assetIdOffChain": "skyswoop_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Aerohawk",
+      "type": "Drone Operator",
+      "upgradeLevel": "Intermediate",
+      "description": "The Aerohawk drone operator boasts advanced drone design and a vast blueprint library.",
+      "image": "https://example.com/aerohawk_image.png",
+      "animation_url": "https://example.com/aerohawk_animation.gif",
+      "external_url": "https://example.com/aerohawk_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "250"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "40"
+        },
+        {
+          "trait_type": "Speed and Agility",
+          "value": "40"
+        },
+        {
+          "trait_type": "Payload Capacity",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Drone Operator"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Improved speed and agility, carry more advanced payloads"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Drone Design",
+          "Blueprint Library"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 75
+        }
+      },
+      "assetIdOnChain": "aerohawk_onchain_asset",
+      "assetIdOffChain": "aerohawk_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Skygrid",
+      "type": "Drone Operator",
+      "upgradeLevel": "Advanced",
+      "description": "The Skygrid drone operator excels with drone navigation upgrades and defensive protocols.",
+      "image": "https://example.com/skygrid_image.png",
+      "animation_url": "https://example.com/skygrid_animation.gif",
+      "external_url": "https://example.com/skygrid_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "300"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "60"
+        },
+        {
+          "trait_type": "Speed and Agility",
+          "value": "60"
+        },
+        {
+          "trait_type": "Payload Capacity",
+          "value": "60"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Drone Operator"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Enhanced precision, better defensive capabilities"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Drone Navigation Upgrades",
+          "Defensive Protocols"
+        ],
+        "resourcesRequired": {
+          "metal": 200,
+          "rareCrystals": 100,
+          "exoticEnergyFragments": 75
+        }
+      },
+      "assetIdOnChain": "skygrid_onchain_asset",
+      "assetIdOffChain": "skygrid_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Stormborne",
+      "type": "Drone Operator",
+      "upgradeLevel": "Expert",
+      "description": "The Stormborne drone operator possesses advanced drone deployment techniques and expert aerial swarm management.",
+      "image": "https://example.com/stormborne_image.png",
+      "animation_url": "https://example.com/stormborne_animation.gif",
+      "external_url": "https://example.com/stormborne_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "400"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "80"
+        },
+        {
+          "trait_type": "Speed and Agility",
+          "value": "80"
+        },
+        {
+          "trait_type": "Payload Capacity",
+          "value": "80"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Drone Operator"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "10"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Ability to deploy drone swarms, improved coordination and communication"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Drone Deployment",
+          "Aerial Swarm Management"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "rareCrystals": 150,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "stormborne_onchain_asset",
+      "assetIdOffChain": "stormborne_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}

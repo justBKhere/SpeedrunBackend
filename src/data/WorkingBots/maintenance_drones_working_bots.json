@@ -1,0 +1,228 @@
+{
+  "workingBots": [
+    {
+      "name": "Swiftfixer",
+      "type": "Maintenance Drone",
+      "upgradeLevel": "Basic",
+      "description": "The Swiftfixer is designed for swift maintenance and minor repairs.",
+      "image": "https://example.com/swiftfixer_image.png",
+      "animation_url": "https://example.com/swiftfixer_animation.gif",
+      "external_url": "https://example.com/swiftfixer_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "200"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "25"
+        },
+        {
+          "trait_type": "Maintenance Speed",
+          "value": "25"
+        },
+        {
+          "trait_type": "Operation Time",
+          "value": "40"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Maintenance Drone"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Basic"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "3"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "-"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [],
+        "resourcesRequired": {
+          "metal": 75,
+          "organicMaterials": 50
+        }
+      },
+      "assetIdOnChain": "swiftfixer_onchain_asset",
+      "assetIdOffChain": "swiftfixer_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Quickcharge",
+      "type": "Maintenance Drone",
+      "upgradeLevel": "Intermediate",
+      "description": "The Quickcharge has advanced maintenance automation and fast charging technology.",
+      "image": "https://example.com/quickcharge_image.png",
+      "animation_url": "https://example.com/quickcharge_animation.gif",
+      "external_url": "https://example.com/quickcharge_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "250"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "40"
+        },
+        {
+          "trait_type": "Maintenance Speed",
+          "value": "40"
+        },
+        {
+          "trait_type": "Operation Time",
+          "value": "52"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Maintenance Drone"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Intermediate"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "4"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Maintenance speed increased by 20%, operation time extended by 30%"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Drone Maintenance Automation",
+          "Fast Charging Technology"
+        ],
+        "resourcesRequired": {
+          "metal": 100,
+          "exoticEnergyFragments": 50,
+          "nanomaterials": 25
+        }
+      },
+      "assetIdOnChain": "quickcharge_onchain_asset",
+      "assetIdOffChain": "quickcharge_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Durashield",
+      "type": "Maintenance Drone",
+      "upgradeLevel": "Advanced",
+      "description": "The Durashield features advanced material sciences and exotic coating technology.",
+      "image": "https://example.com/durashield_image.png",
+      "animation_url": "https://example.com/durashield_animation.gif",
+      "external_url": "https://example.com/durashield_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "300"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "60"
+        },
+        {
+          "trait_type": "Maintenance Speed",
+          "value": "60"
+        },
+        {
+          "trait_type": "Operation Time",
+          "value": "64"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Maintenance Drone"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Advanced"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "6"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Durability increased by 25%, resistance to hazards improved by 20%"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Advanced Material Sciences",
+          "Exotic Coating Technology"
+        ],
+        "resourcesRequired": {
+          "metal": 150,
+          "rareCrystals": 75,
+          "nanomaterials": 50
+        }
+      },
+      "assetIdOnChain": "durashield_onchain_asset",
+      "assetIdOffChain": "durashield_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    },
+    {
+      "name": "Nanorepairer",
+      "type": "Maintenance Drone",
+      "upgradeLevel": "Expert",
+      "description": "The Nanorepairer is the epitome of maintenance bots, equipped with nanoscale manipulation and advanced diagnostics.",
+      "image": "https://example.com/nanorepairer_image.png",
+      "animation_url": "https://example.com/nanorepairer_animation.gif",
+      "external_url": "https://example.com/nanorepairer_info",
+      "attributes": [
+        {
+          "trait_type": "Health",
+          "value": "400"
+        },
+        {
+          "trait_type": "Armor",
+          "value": "80"
+        },
+        {
+          "trait_type": "Maintenance Speed",
+          "value": "80"
+        },
+        {
+          "trait_type": "Operation Time",
+          "value": "72"
+        },
+        {
+          "trait_type": "Category",
+          "value": "Maintenance Drone"
+        },
+        {
+          "trait_type": "Upgrade Level",
+          "value": "Expert"
+        },
+        {
+          "trait_type": "Build Time (Hours)",
+          "value": "8"
+        },
+        {
+          "trait_type": "Benefits of Upgrade",
+          "value": "Advanced diagnostics, healing nearby damaged robots by 30%"
+        }
+      ],
+      "properties": {
+        "researchTreeRequirements": [
+          "Nanobot Repair Systems",
+          "Nanoscale Manipulation"
+        ],
+        "resourcesRequired": {
+          "metal": 250,
+          "exoticEnergyFragments": 150,
+          "nanomaterials": 100
+        }
+      },
+      "assetIdOnChain": "nanorepairer_onchain_asset",
+      "assetIdOffChain": "nanorepairer_offchain_asset",
+      "onchain_state": "Ready for Deployment"
+    }
+  ]
+}
