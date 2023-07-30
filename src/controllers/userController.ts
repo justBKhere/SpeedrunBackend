@@ -14,6 +14,7 @@ import SessionModel from '../dbms/models/sessionModel';
 
 const UserController = {
     async register(req: Request, res: Response) {
+        console.log(req.body)
         let { username, password, email } = req.body;
         username = username.toLowerCase();
         try {
@@ -65,10 +66,11 @@ const UserController = {
             if (await createSession(newUser)) {
                 return res.json({
                     message: 'Authentication successful.',
-                    token,
-                    user: {
+
+                    result: {
                         username: newUser.username,
                         publicAddress: newUser.publicAddress,
+                        jwtToken: token,
                     },
                 });
             } else {
@@ -102,10 +104,11 @@ const UserController = {
             if (await createSession(user)) {
                 return res.json({
                     message: 'Authentication successful.',
-                    token,
-                    user: {
+
+                    result: {
                         username: user.username,
                         publicAddress: user.publicAddress,
+                        jwtToken: token,
                     },
                 });
             } else {

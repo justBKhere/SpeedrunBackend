@@ -5,6 +5,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import userApiRouter from './routes/userRoutes';
 import walletApiRouter from './routes/walletRoutes';
+import gameApiRouter from './routes/gameRoutes';
 import authMiddleware from './middleware/authMiddleware';
 
 const app: Application = express();
@@ -19,6 +20,7 @@ app.use(morgan('combined'));
 // API routes
 app.use('/api/v1/user/', userApiRouter);
 app.use('/api/v1/wallet/', walletApiRouter);
+app.use('/api/v1/game/', gameApiRouter);
 // Error handling middleware
 app.use((err: any, req: Request, res: Response, next: NextFunction) => {
     console.error(err.stack);

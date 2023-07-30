@@ -12,7 +12,6 @@ router.post('/build-a-battle-bot', authMiddleware, GameController.BuildABattleBo
 
 router.post('/build-a-helper-bot', authMiddleware, GameController.BuildAHelperBot);
 
-router.post('/Upgrade-Building', authMiddleware, GameController.UpgradeBuilding);
 
 router.post('/')
 export default router;
